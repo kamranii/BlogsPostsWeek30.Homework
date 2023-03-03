@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{C52DF199-40AD-4F5A-9A56-69BFA82D5A53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blog.Week30.Homework/UnitOfWork/UnitOfWork.cs">
+    <Files>
+      <File FileName="Blog.Week30.Homework/Entities/Blog.cs" />
+      <File FileName="Blog.Week30.Homework/Entities/Post.cs" />
+      <File FileName="Blog.Week30.Homework/Entities/BaseEntity.cs" />
+      <File FileName="Blog.Week30.Homework/Data/ApplicationDbContext.cs" Line="14" Column="32" />
+      <File FileName="Blog.Week30.Homework/Program.cs" Line="14" Column="75" />
+      <File FileName="Blog.Week30.Homework/UnitOfWork/IUnitOfWork.cs" Line="10" Column="68" />
+      <File FileName="Blog.Week30.Homework/Repository/Implementations/Repository.cs" Line="117" Column="10" />
+      <File FileName="Blog.Week30.Homework/UnitOfWork/UnitOfWork.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Blog.Week30.Homework" expanded="True">
+            <Node name="Blog.Week30.Homework" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="Abstractions" expanded="True" />
+                <Node name="Implementations" expanded="True" />
+              </Node>
+              <Node name="UnitOfWork" expanded="True">
+                <Node name="UnitOfWork.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Blog.Week30.Homework PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

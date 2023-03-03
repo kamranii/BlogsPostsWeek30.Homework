@@ -1,0 +1,7 @@
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.csproj.AssemblyReference.cache
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.AssemblyInfoInputs.cache
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.AssemblyInfo.cs
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.csproj.CoreCompileInputs.cache
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.MvcApplicationPartsAssemblyInfo.cs
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.MvcApplicationPartsAssemblyInfo.cache
