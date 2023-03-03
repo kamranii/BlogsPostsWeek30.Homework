@@ -55,7 +55,7 @@ namespace Blog.Week30.Homework.Controllers
             _logger.LogWarning($"Request accepted to find the blog with id of {id}");
 
             //find and check
-            var blog = await _unitOfWork.blogRepository.Find(id);
+            var blog = await _unitOfWork.blogRepository.GetFirst(b=>b.Id == id);
             if (blog == null)
             {
                 return NotFound("No blog was found");
@@ -103,13 +103,17 @@ namespace Blog.Week30.Homework.Controllers
                 return BadRequest("Invalid input id");
 
             //update
-            blog = new SBlog
-            {
-                Name = dto.Name,
-                PostsCount = postCount
-            };
-            await _unitOfWork.blogRepository.Update(blog);
+            //blog = new SBlog
+            //{
+            //    Name = dto.Name,
+            //    PostsCount = postCount
+            //};
+            blog.Name = dto.Name;
+            blog.PostsCount = postCount;
+            blog.Description = dto.Description;
 
+            await _unitOfWork.blogRepository.Update(blog);
+            await _unitOfWork.Commit();
             //log
             _logger.LogInformation($"Blog with id {id} updated by {User}");
 
