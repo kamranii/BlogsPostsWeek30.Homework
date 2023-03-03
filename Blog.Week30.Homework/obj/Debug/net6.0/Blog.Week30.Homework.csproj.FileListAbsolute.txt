@@ -65,3 +65,13 @@
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.pdb
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/Blog.Week30.Homework.genruntimeconfig.cache
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/obj/Debug/net6.0/ref/Blog.Week30.Homework.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.File.dll
