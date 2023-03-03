@@ -32,8 +32,7 @@ namespace Blog.Week30.Homework.Data
 			modelBuilder.Entity<Post>()
 				.HasOne(p => p.Blog)
 				.WithMany(b => b.Posts)
-				.HasForeignKey(p => p.BlogId)
-				.OnDelete(DeleteBehavior.SetNull);
+				.HasForeignKey(p => p.BlogId);
         }
     }
 }

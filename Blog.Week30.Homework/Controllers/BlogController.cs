@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blog.Week30.Homework.Entities;
+using Blog.Week30.Homework.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,18 +15,35 @@ namespace Blog.Week30.Homework.Controllers
     [Route("api/[controller]")]
     public class BlogController : Controller
     {
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<BlogController> _logger;
+
+        public BlogController(IUnitOfWork unitOfWork,
+            ILogger<BlogController> logger)
+        {
+            _unitOfWork = unitOfWork;
+            _logger = logger;
+        }
+
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<List<SBlog>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            _logger.Log( LogLevel.Debug, "Listing all blog items");
+            var blogs = await _unitOfWork.blogRepository.GetAllList();
+            if (blogs == null || blogs.Count == 0)
+                return NotFound("No blogs were found");
+            return blogs;
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<SBlog>> Get(int id)
         {
-            return "value";
+            var book = await _unitOfWork.blogRepository.Find(id);
+            if (book == null)
+                return NotFound("No blog was found");
+            return book;
         }
 
         // POST api/values
