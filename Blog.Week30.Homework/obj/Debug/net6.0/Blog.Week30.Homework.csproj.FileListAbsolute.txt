@@ -75,3 +75,6 @@
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.Console.dll
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
 /Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/FluentValidation.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

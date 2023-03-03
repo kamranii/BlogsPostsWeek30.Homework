@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Eekzlgcs4lRXttJNGqhL55NO1otYKonC7np2AyjpVbjqdV6b25roVQE3ac8NzYykIziLqxgCX7sVuPYAPJkCTg==",
+  "dgSpecHash": "IblVERvRG5/lZnK2kh0H1cHSazdW4AfYTR9yPRvIpbkvzQOyHrh4+r6JipGphGT5/EwAIREsD/cp54wiBCZxqg==",
   "success": true,
   "projectFilePath": "/Users/kamranimranli/Desktop/CodeAcademy/NET Core/Blog.Week30.Homework/Blog.Week30.Homework/Blog.Week30.Homework.csproj",
   "expectedPackageFiles": [
+    "/Users/kamranimranli/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/kamranimranli/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "/Users/kamranimranli/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/kamranimranli/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/kamranimranli/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/kamranimranli/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",

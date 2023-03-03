@@ -17,6 +17,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +28,8 @@
     <None Remove="Repository\Implementations\" />
     <None Remove="Data\" />
     <None Remove="UnitOfWork\" />
+    <None Remove="Dto\" />
+    <None Remove="Loggers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -34,5 +38,7 @@
     <Folder Include="Repository\Implementations\" />
     <Folder Include="Data\" />
     <Folder Include="UnitOfWork\" />
+    <Folder Include="Dto\" />
+    <Folder Include="Loggers\" />
   </ItemGroup>
 </Project>
